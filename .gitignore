@@ -1,4 +1,6 @@
 node_modules/
+__pycache__/
+db.sqlite3
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
