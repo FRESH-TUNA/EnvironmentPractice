@@ -1,10 +1,10 @@
 import os
-from testProject.settings import *
+from testProject.settings.base import *
 from django.core.management.utils import get_random_secret_key
 
 ALLOWED_HOSTS = ['tuna-production-practice.pje89ijymw.ap-northeast-2.elasticbeanstalk.com']
 
-DEBUG = False
+DEBUG = True
 
 SECRET_KEY = get_random_secret_key()
 
